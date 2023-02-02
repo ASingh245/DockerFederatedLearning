@@ -1,6 +1,6 @@
 # DockerFederatedLearning
 
-Navigate to Server folder and use following docker commands:
+Navigate to Server folder and use following docker commands:  
     - Create docker image : docker build -t <serverimagename> . 
     - Create network : docker network create <networkname>
     - Create server conatiner and run it : docker run --rm --name <servercontainername>  --net <networkname> <imagename> 
